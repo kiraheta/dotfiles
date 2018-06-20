@@ -64,8 +64,8 @@ if tput setaf 1 &> /dev/null; then
     bold=$(tput bold);
     reset=$(tput sgr0);
     # Solarized colors, taken from http://git.io/solarized-colors.
-        # Color table https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit
-        black=$(tput setaf 0);
+    # Color table https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit
+    black=$(tput setaf 0);
     blue=$(tput setaf 33); #153
     green=$(tput setaf 118); # 71
     orange=$(tput setaf 166);

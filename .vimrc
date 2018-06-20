@@ -4,7 +4,7 @@ syntax on
 
 call plug#begin()
 
-    Plug 'flazz/vim-colorschemes'
+  Plug 'flazz/vim-colorschemes'
   Plug 'scrooloose/nerdtree'
   Plug 'scrooloose/syntastic'
   Plug 'ervandew/supertab'
